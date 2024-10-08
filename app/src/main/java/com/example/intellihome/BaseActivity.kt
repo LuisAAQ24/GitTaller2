@@ -14,7 +14,7 @@ open class BaseActivity : AppCompatActivity() {
         loadLocale()  // Cargar el idioma seleccionado
         ThemeUtils.applyTheme(this) // Aplicar el tema
         super.onCreate(savedInstanceState)
-    }
+    }jhgfds
     //Carga preferencias
     fun loadLocale() {
         val sharedPreferences: SharedPreferences = getSharedPreferences("Settings", Context.MODE_PRIVATE)
